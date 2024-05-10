@@ -16,7 +16,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+from myapp.views import welcome
 urlpatterns = [
     path("admin/", admin.site.urls),
-]
+    path("espanol/", welcome, name="welcome")
+] 
