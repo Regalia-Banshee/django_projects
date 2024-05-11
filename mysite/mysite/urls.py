@@ -17,7 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myapp.views import welcome
+from myapp.views import ProfileView
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("espanol/", welcome, name="welcome")
+    path("espanol/", welcome, name="welcome"),
+    path("name/",ProfileView,name="profile"),
 ] 
