@@ -18,8 +18,12 @@ from django.contrib import admin
 from django.urls import path
 from myapp.views import welcome
 from myapp.views import ProfileView
+from myapp.views import get_profile_by_name
+#from myapp.views import update_email
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("espanol/", welcome, name="welcome"),
     path("name/",ProfileView,name="profile"),
+    path("profile/<str:name>/",get_profile_by_name,name="get_profile_by_name"),
+    #path("profile/<str:name>/email",update_email,name="update_email"),
 ] 
