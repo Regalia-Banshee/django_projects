@@ -1,5 +1,7 @@
 Hello, World! 👋
+
 🌟 My Coding Journey 🌟
+
 Once upon a time, in the depths of a monotonous 9-to-5 grind, I found myself stuck in a dead-end job. Each day was a blur of unfulfilling tasks and a haunting sense of being trapped. The future seemed bleak, with no light at the end of the tunnel.
 
 The Turning Point
