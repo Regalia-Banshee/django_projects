@@ -1,7 +1,8 @@
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.http import JsonResponse
-from  myapp.models import Product
+from .models import Product
+from django.contrib import admin
 from datetime import datetime,timedelta
 import sys
 
